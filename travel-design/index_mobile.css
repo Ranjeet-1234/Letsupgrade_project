@@ -1,0 +1,144 @@
+/* CSS FOR MOBILE DEVICES */
+
+@media (min-width : 320px) and (max-width: 480px){
+    
+
+    /* css for header */
+
+    .header{
+        height: auto;
+    }
+
+    .header:hover   .nav{
+        height: 250px;
+        transition: 2s;
+    }
+
+    .container{
+        height: auto;
+    }
+
+    .logo{
+        height: 50px;
+        width: 100%;
+        font-size: 25px;
+        line-height: 50px;
+        margin-bottom: 5px;
+    }
+
+    .navigation{
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .nav{
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .nav-link{
+        height: 50px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    /* css for banner */
+    .banner{
+        height: 200px;
+        margin-top: 55px;
+        /* background-color: red; */
+    }
+
+    .banner-img{
+        margin-top: 0px;
+    }
+
+    /* css for places */
+    .place{
+        width: 80%;
+        margin-bottom: 20px;
+        /* height: ; */
+
+    }
+
+    .places{
+        height: 100%;
+        /* margin-left: ; */
+    }
+    .place_img{
+        height: auto;
+    }
+
+    .places-container{
+        margin-left: 15%;
+        /* background-color: blue; */
+    }
+
+    .place_desc{
+        font-size: 14px;
+    }
+
+    .place-title{
+        font-size: 20px;
+    }
+
+    .place-button{
+        font-size: 15px;
+    }
+
+    /* css for about us */
+
+    .about_image{
+        width: 100%;
+        height: auto;
+    }
+
+    .about_text{
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+
+    /* css for booking */
+
+    .booking_title{
+        font-size: 25px;
+        
+    }
+
+    .booking{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .place-button{
+        font-size: 15px;
+    }
+
+    .about_text{
+        height: 300px;
+    }
+
+    .padd{
+        padding: 5px;
+    }
+
+    .btn{
+        display: flex;
+        margin-top: 5px;
+    }
+
+    /* css for gallery */
+
+    .gallery_img{
+        width: 50%;
+        height: 100px;
+    }
+    
+}
