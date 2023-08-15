@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(34,34,34);
+    /* padding-right: 50px; */
+    font-size: 0px;
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+}
+.container{
+    height: 70px;
+    /* background-color: red; */
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+}
+.logo{
+    height: 70px;
+    width: 15%;
+    /* background-color: yellow; */
+    font-size: 40px;
+    font-family: Calibri;
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: top;
+    display: inline-block;
+    color: white;
+}
+.navigation{
+    height: 70px;
+    width: 30%;
+    /* background-color:blue; */
+    display: inline-block;
+    margin-left: 55%;
+}
+.nav{
+    list-style-type: none;
+    font-size: 0px;
+}
+.nav-link{
+    width: 20%;
+    height: 70px;
+    /* background-color:lightblue; */
+    display:  inline-block;
+    font-size: 17px;
+    font-family: Segoe UI;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+
+/* CSS Banner */
+
+
+.banner{
+    width: 100%;
+    height: 700px;
+    background-color: gray;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.banner-img{
+    width: 100%;
+    margin-top: -300px;
+}
+
+/* Places */
+
+.places{
+    height: 500px;
+    width: 100%;
+    background-color: #a9a5a5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.places-container{
+    /* height: 500px; */
+    width: 80%;
+    /* background-color: red; */
+    margin-left: 10%;
+    display: inline-block;
+    font-size: 0px;
+}
+.place{
+    /* height: 500px; */
+    width: 22%;
+    /* background-color: yellow; */
+    display: inline-block;
+    margin-left: 2.4%;
+    vertical-align: top;
+
+}
+.place_img{
+    width: 100%;
+    height: 222px;
+    /* background-color: blue; */
+   
+}
+
+.place_image{
+    width: 100%;
+   
+}
+
+.place_desc{
+    /* width: 100%; */
+    /* height: 200px; */
+    background-color:white;
+    font-size: 16px;
+    font-family: Segoe UI;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.place-title{
+    /* margin-top: 20px; */
+    font-size: 25px;
+    /* color: white; */
+}
+.place-button{
+    margin-top: 20px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 18px;
+   background-color: #2a9507;
+   color: white;
+   cursor: pointer;
+}
+
+/* About us */
+
+.about{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: red; */
+}
+
+.about_container{
+    
+    width: 80%;
+    /* background-color: grey; */
+    margin-left: 10%;
+    font-size: 0px;
+}
+
+.about_image{
+    /* height: 429px; */
+    width:50%;
+    /* background-color: blue; */
+    display: inline-block;
+    vertical-align: top;
+}
+.about_text{
+    height: 429px;
+    width: 50%;
+    /* background-color: yellow; */
+    display: inline-block;
+    font-size: 17px;
+    font-family: segoe UI;
+    color: #222222;
+    overflow: hidden;
+   
+
+}
+
+.about_img{
+    width: 100%;
+}
+
+.padd{
+    padding: 30px;
+}
+.text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn{
+    display: none;
+}
+
+/* CSS for booking */
+
+.booking{
+    
+    width: 100%;
+    background-color: #222222;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.booking_title{
+    color: white;
+    font-family: segoe UI;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+/* CSS for gallery */
+
+.gallery{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    font-size: 0px;
+}
+
+.gallery_img{
+    height:250px;
+    width: 20%;
+    background-color: yellow;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.gallery_image{
+    width: 100%;
+   
+}
+
