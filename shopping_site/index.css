@@ -1,0 +1,513 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  reusable css  */
+.container_center{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    width: 90%;
+    display: flex;
+}
+
+.padd{
+    padding: 20px;
+}
+
+.title{
+    font-family: segoe UI;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+/* ///////////////////////////////// */
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);    
+    position: fixed;
+    z-index: 500;
+}
+
+
+.header_container{
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30%;
+    height: 100px;
+    color: rgb(218, 19, 19);
+    font-family: Cambria;
+    font-size: 35px;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+}
+
+.navigation{
+    height: 100px;
+    width: 40%;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    color: white;
+}
+
+.nav-link{
+    width: 20%;
+    height: 100px;
+    font-family: segoe UI;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+}
+ /* BANNER SECTION  */
+
+ .banner{
+    height: 90vh;
+    width: 100%;
+    background-color: grey;
+    background-image: url('./images/Banner\ image.jpg');
+    background-size: cover;
+    background-position: 0 -70px;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+ }
+
+ .banner_container{
+    align-items: center;
+    position: absolute;
+    /* overflow: hidden; */
+    z-index: 2;
+ }
+
+ .banner_details{
+    height: 400px;
+    width: 45%;
+ }
+
+ .banner_title{
+    font-size: 80px;
+    font-family: segoe UI;
+ }
+ .btn{
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: segoe UI;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f35713;
+    border: 2px solid white;
+    cursor: pointer;
+    
+
+ }
+
+ .cut {
+    width: 50%;
+    height:100%;
+    background-color: #f35713;
+    align-self: flex-start;
+    transform: rotate(30deg);
+    position: absolute;
+    z-index: 1;
+ }
+
+  /* CSS FOR PRODUCT SECTION */
+
+  .products{
+    width: 100%;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    background-color: grey;
+  }
+
+
+  .container_product{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .product_section{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 4%;
+    row-gap: 30px;
+  }
+
+  .product{
+    height: 500px;
+    width: 22%;
+    background-color: red;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.product:nth-child(1){
+      background-image: url(./images/product\ 2.jpg);
+
+  }
+  .product:nth-child(2){
+    background-image: url(./images/product\ 3.jpg);
+  }
+  .product:nth-child(3){
+     background-image: url(./images/product\ 4.jpg);
+  }
+  .product:nth-child(4){
+    background-image: url(./images/product\ 5.jpg);
+  }
+  .product:nth-child(5){
+    background-image: url(./images/product\ 6.jpg);
+  }
+  .product:nth-child(6){
+    background-image: url(./images/product\ 7.jpg);
+  }
+  .product:nth-child(7){
+    background-image: url(./images/product\ 8.jpg);
+  }
+  .product:nth-child(8){
+    background-image: url(./images/product\ -1.jpg);
+  }
+
+  .details{
+    height: 150px;
+    padding: 20px;
+    font-family: segoe UI;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.details_container{
+      flex-direction: column;
+      justify-content: space-between;
+
+  }
+
+  .details:hover{
+    height: 460px;
+  }
+
+
+  /* CSS FOR NEW PRODUCT */
+
+  .new_product{
+    width: 100%;
+    height: 90vh;
+    /* display: flex; */
+    background-color: auto;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .gallery{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: 4s;
+
+  }
+
+  .gallery_image{
+    height: 90%;
+    
+  }
+  
+
+
+  .gallery_details{
+    width: 75%;
+    height: 100%;
+    font-family: segoe UI;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .gall_padd{
+    padding: 100px;
+  }
+
+  .gall_img{
+    height: 97%;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .gallery_title{
+    font-size: 70px;
+    margin-bottom: 30px;
+  }
+
+  .gallery-btn{
+    width: 250px;
+    height: 70px;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: segoe UI;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #09090cc9;
+    border: 2px solid white;
+    cursor: pointer;
+    
+  }
+  .gallery_1{
+    background-color: aqua;
+  }
+  
+  .gallery_2{
+    background-color: #b2d392;
+    margin-left:25%;
+
+  }
+  .gallery_3{
+    background-color: #cda9c9;
+    margin-left: 50%;
+
+  }
+  .gallery_4{
+    background-color: darkgrey;
+    margin-left: 75%;
+  }
+
+  .gallery_4:hover{
+    margin-left: 0px;
+  }
+  .gallery_3:hover{
+    margin-left: 0px;
+  }
+  .gallery_2:hover{
+    margin-left: 0px;
+  }
+
+  .gallery_3:hover ~ .gallery_4{
+    margin-left: 100%;
+  }
+  .gallery_2:hover ~ .gallery_3{
+    margin-left: 100%;
+  }
+  .gallery_2:hover ~ .gallery_4{
+    margin-left: 100%;
+  }
+  
+  .gallery_1:hover ~ .gallery_2{
+    margin-left: 100%;
+  }
+  
+  .gallery_1:hover ~ .gallery_3{
+    margin-left: 100%;
+  }
+  
+  .gallery_1:hover ~ .gallery_4{
+    margin-left: 100%;
+  }
+
+.mob_img{
+  display: none;
+}
+  
+
+  /* CSS FOR CONTACT */
+
+  .contact{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .contact_container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form_container{
+    width: 100%;
+    padding-top:10px ;
+    padding-bottom:10px ;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .form_field{
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+    font-family: segoe UI;
+    text-indent: 20px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    transition: .4s;
+    outline: none;
+  }
+
+  .form_field:focus{
+    box-shadow:  0 0 8px black;
+  }
+
+  .form_text{
+    height: 100px;
+    font-size: 17px;
+    font-family: segoe UI;
+    text-indent: 20px;
+    border-radius: 10px;
+    transition: .4s;
+    outline: none;
+  }
+  .form_text:focus{
+    
+    box-shadow:  0 0 8px black;
+  }
+
+  .form_btn{
+    background-color:#000000b8;
+    margin-top: 0px;
+    color: white;
+  }
+
+  /* CSS FOR SUBSCRIBE SECTION  */
+
+  .subscribe{
+    width: 100%;
+    background-image: url(./images/sub\ img.jpg);
+    background-size: cover;
+    background-position: 0 -200px;
+    background-repeat: no-repeat;
+  }
+
+  .subscribe_container{
+    width: 100%;
+    height: 900px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .sub_inp::placeholder{
+    color: white;
+  }
+  .sub_inp{
+    width: 70%;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 20px;
+    font-size: 17px;
+    font-family: segoe UI;
+    background-color: transparent;
+  }
+
+  .sub_title{
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .sub_btn{
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    width: 200px;
+    transition: .4s;
+  }
+
+  .sub_btn:hover{
+    background-color: white;
+    color: black;
+  }
+
+    /* css for footer */
+
+  .footer{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+  }
+
+  .footer_container{
+    justify-content: space-between;
+    padding-left: 50px;
+  }
+
+  .footer_child{
+    width: 22%;
+    height: 300px;
+    color: white;
+    font-family: segoe UI;
+
+  }
+
+  .quick_links{
+    list-style-type: none;
+  }
+
+  .footer_title{
+    font-weight: 200;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+  }
+
+  .quick_link{
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .social{
+    padding-top: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_btn{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .footer_btn:hover{
+    background-color: white;
+    color: black;
+}

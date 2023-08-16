@@ -1,0 +1,350 @@
+
+@media (min-width : 320px) and (max-width : 480px){
+ 
+        /*============ css for header ============*/
+
+   
+    .header{
+       
+        height : auto ;
+        /* background-color: white; */
+    }
+    
+    .header:hover .navigation{
+        height: auto;
+    }
+
+
+
+    .header_container{
+        flex-wrap: wrap;
+        /* align-items: center; */
+    }
+
+    .logo{
+        width: 100%;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .navigation{
+        height: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .nav{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .nav-link{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    /* ========== CSS FOR BANNER SECTON  ==========*/
+
+    .banner{
+        width: 100%;
+        height: 50vh;
+        background-repeat: no-repeat;
+        /* overflow: hidden; */
+        background-position: -200px 0px;
+    }
+
+    .banner_title{
+        font-size: 40px;
+    }
+
+    .banner_btn{
+        background-color:#a75050d9 ;
+    }
+
+    .btn{
+        font-size: 17px;
+        padding: 10px 10px;
+    }
+
+    .banner_details{
+        margin-top: 100px;
+        width: 70%;
+    }
+
+    .cut{
+        width: 80%;
+        margin-left: 0%;
+        height: 150%;
+        transform: rotateZ(60deg);
+        background-color: #cf929285;
+    }
+
+    /* ======= css for product section========== */
+
+    .product{
+        width: 45%;
+        height: 300px;
+    }
+
+    .product_section{
+        justify-content: center;
+    }
+
+    .details{
+        height: 60px;
+        padding: 10px;
+    }
+    .details:hover{
+        height: 280px;
+      }
+
+      /* ===========CSS FOR NEW PRODUCTS=========== */
+
+      .new_product {
+       
+        height: 60vh;
+        /* overflow: scroll; */
+    }
+    .slider{
+        height: auto;
+        /* overflow: scroll; */
+        width: 100%;
+
+        animation-name: silder;
+        animation-duration: 16s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+    }
+
+    @keyframes  silder{
+
+        12.5%{
+            margin-top:-60vh;
+        }
+        25%{
+            margin-top:-60vh;
+        }
+        37.5%{
+            margin-top:-120vh;
+        }
+        50%{
+            margin-top:-120vh;
+        }
+        62.5%{
+            margin-top:-180vh;
+        }
+        75%{
+            margin-top:-180vh;
+        }
+        87.5%{
+            margin-top:-240vh;
+        }
+        100%{
+            margin-top:-240vh;
+        }
+    }
+
+    .gallery{
+        height: 60vh;
+        width: 100%;
+        overflow: hidden;
+        position: static;
+    }
+
+    .gallery_details{
+        height: auto;
+    }
+
+    .gallery_title{
+        width: 100%;
+        font-size: 30px;
+        margin-bottom: 10px;
+        height: auto;
+    }
+    .gall_padd{
+        height: auto;
+        /* margin-right: 30px; */
+        padding: 50px;
+        padding-right: 5px;
+    }
+    .gall_padd p{
+        width: 90%;
+        height: 200px;
+        overflow: hidden;
+        text-align: justify;
+    }
+    .gall_img{
+        /* width: 25%; */
+        margin-top: 80px;
+        margin-left: 50px;
+        height: 50vh;
+    }
+    .image1{
+        height: 45vh;
+        margin-left: -50px;
+    }
+    .image2{
+        margin-top: -30px;
+        margin-left: -50px;
+    }
+    
+    .image3{
+        height: 50vh;
+        margin-top:-100px ;
+        /* transform: rotateY(180deg); */
+        margin-left: 40px;
+    }
+    .gall_padd_img3{
+        margin-bottom: 0px;
+        /* background-color: blue; */
+    }
+    
+    .image4{
+        /* transform: rotateY(180deg); */
+        margin-left: -20px;
+        /* height: 50vh; */
+
+    }
+    .gallery-btn{
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: segoe UI;
+    margin-top: 10px;
+    border-radius: 9px;
+    color: white;
+    border: none;
+    background-color: #09090cc9;
+    border: 1px solid white;
+    cursor: pointer;
+    
+  }
+
+    .gallery_1{
+        background-color: aqua;
+      }
+      
+      .gallery_2{
+        background-color: #b2d392;
+        margin-left:0%;
+    
+      }
+      .gallery_3{
+        background-color: #cda9c9;
+        margin-left: 0%;
+    
+      }
+      .gallery_4{
+        background-color: darkgrey;
+        margin-left: 0%;
+      }
+    
+      .gallery_4:hover{
+        margin-left: 0px;
+      }
+      .gallery_3:hover{
+        margin-left: 0px;
+      }
+      .gallery_2:hover{
+        margin-left: 0px;
+      }
+    
+      .gallery_3:hover ~ .gallery_4{
+        margin-left: 0%;
+      }
+      .gallery_2:hover ~ .gallery_3{
+        margin-left: 0%;
+      }
+      .gallery_2:hover ~ .gallery_4{
+        margin-left: 0%;
+      }
+      
+      .gallery_1:hover ~ .gallery_2{
+        margin-left: 0%;
+      }
+      
+      .gallery_1:hover ~ .gallery_3{
+        margin-left: 0%;
+      }
+      
+      .gallery_1:hover ~ .gallery_4{
+        margin-left: 0%;
+      }
+
+
+      .mob_img{
+        display:flex;
+      }
+
+      /* css for contact  */
+
+      .form_field{
+        font-size: 14px;
+        height: 30px;
+      }
+
+      .form_text{
+        font-size: 14px;
+        height: 50px;
+      }
+
+      .contact_title{
+        font-size: 40px;
+
+      }
+
+
+
+      /* css for subscribe */
+
+      
+  .subscribe_container{
+    height: 400px;
+  }
+
+.subscribe{
+    background-position: -150px 0px;
+}
+
+.sub_title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.sub_inp{
+    font-size: 14px;
+    height: 30px;
+}
+
+.sub_btn{
+    /* margin-top: 20px; */
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    padding: 0px;
+}
+
+
+/* CSS FOR FOOTER */
+
+.footer_container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.footer_child{
+    width: 50%;
+    height: auto;
+    /* background-color: green; */
+    row-gap: 30px;
+}
+.social_img{
+    width: 40px;
+}
+  
+}

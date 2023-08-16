@@ -1,0 +1,134 @@
+@media (min-width : 700px) and (max-width :1300px){
+
+
+     /* =======css for header======= */
+    .header{
+        overflow: hidden;
+    }
+
+    .navigation{
+        width: 50%;
+    }
+
+    /*======== css for banner======== */
+
+
+    .banner{
+        height: 80vh;
+        /* background-repeat: no-repeat; */
+        background-position: -50px 0px;
+        overflow: hidden;
+
+    }
+    .banner_btn{
+        background-color: #a75050d9;
+    }
+
+    .banner_title{
+        font-size: 65px;
+    }
+
+    .cut{
+        height: 180%;
+        width: 80%;
+        margin-left: -30%;
+        background-color: #cf929285;
+    }
+
+    /* =========css for products========= */
+
+    .product{
+        width: 30%;
+    }
+
+    .container_product{
+        justify-content: center;
+    }
+
+    .product_section{
+        column-gap: 5%;
+    }
+
+    /*========= css for new products ========= */
+
+    .new_product{
+        height: 70vh;
+    }
+    
+    .gallery{
+        height: 70vh;
+    }
+
+    .gallery_image{
+        height: 80%;
+    }
+
+
+    .gall_img{
+        /* height: auto; */
+        margin-top: 10%;
+        width: 20%;
+    }
+
+    .image1{
+        margin-left: -30%;
+        /* margin-top: 40%; */
+        /* height: 70%; */
+    }
+
+    .image3{
+        transform: rotateY(180deg);
+        margin-left: 60px ;
+    }
+
+    .gallery_title{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+
+    .gallery-btn{
+        margin-top: 10px;
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    /* ============css for contact============ */
+
+    .contact_title{
+        font-size: 40px;
+    }
+    .form_field{
+        height: 30px;
+        font-size: 14px;
+        text-indent: 15px;
+
+    }
+
+    .form_text{
+        height: 50px;
+        font-size: 14px;
+        text-indent: 15px;
+    }
+
+    /*=========== css for subscribe =========== */
+
+    .subscribe{
+        height: 500px;
+        background-position: 0px -100px;
+    }
+
+    .subscribe_container{
+        height: 500px;
+    }
+
+
+    /* ============css for footer============ */
+
+    .footer_btn{
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    
+}
