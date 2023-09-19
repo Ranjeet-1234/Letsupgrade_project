@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Filters</title>
+    <link rel="stylesheet" href="./intdex.css">
+</head>
+<body>
+
+    <section class="container">
+            <div class="filter_box" id="filter_box">
+                
+                <select class="inp" onchange="setfilter('catogery',this.value)">
+                    <option value="">Select Catogery</option>
+                    <option value="food">Food</option>
+                    <option value="drink">Drink</option>
+                    <option value="dairy">Dairy</option>
+                </select>
+                <input class="inp" id="quantity" type="number" placeholder="Enter Quantity" onkeyup="setfilter('quantity',this.value)">
+
+                <div class="price_filter">
+
+                    <h2>Select Price Range</h2>
+                    Min
+                    <input class="inp no-pad" type="range"  min=0 max=300 onchange="setfilter('minprice',this.value)">
+                    Max
+                    <input class="inp no-pad" type="range" min=0 max=300 onchange="setfilter('maxprice',this.value)" >
+
+                </div>
+
+                <button class="btn" onclick="filter() , closeTheFilter()">Apply</button>
+
+            </div>
+            <div class="data_area">
+                <div class="header_data">
+                    <h1>All Products</h1>
+                    <button class="btn" onclick="OpenFilterSection()">filters</button>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sr.No</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Catogery</th>
+                            <th>quantity</th>
+                            <th>pic</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data">
+                        
+                    </tbody>
+                </table>
+
+            </div>
+    </section>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
